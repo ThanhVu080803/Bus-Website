@@ -1,0 +1,274 @@
+@media ( min-width: 1024px ) {
+    
+}
+
+@media ( min-width: 740px) and (max-width: 1023px) {
+    .row {
+        width: 100% !important;
+    }
+
+    .header--nav li:first-child {
+        display: none;
+    }
+
+    .header--nav{
+        margin: 0px 10px;
+    }
+
+    .header--contact {
+        padding: 0px 10px;
+    }
+
+    .containers-one,
+    .containers-two {
+        margin: auto;
+    }
+
+    .location_time{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tour_items{
+        display: block;
+    }
+
+    .col-second{
+        width: 100%;
+    }
+
+    .tour_item{
+        justify-content: space-between;
+    }
+
+    .tour_info{
+        justify-content: space-between;
+    }
+
+    .tour{
+        width: 100%;
+    }
+
+    .featured_list{
+        display: block;
+    }
+
+    .featured_subtitle, .featured_content, .featured_title{
+        text-align: center;
+    }
+
+    .featured_subtitle{
+        font-size: 30px;
+    }
+
+    .featured_content{
+        font-size: 20px;
+    }
+
+    .featured_item{
+        padding: 20px 0;
+    }
+
+    .famous_tour-item .desc{
+        width: 100%;
+        margin: 0 0 0 30px;
+    }
+    
+    .famous_tour-item{
+        /* max-width: 960px; */
+        display: block !important;
+    }
+
+    .famous_tour-item .img{
+        display: flex;
+        justify-content: center;
+        /* -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%; */
+    }
+    
+
+}
+
+
+@media ( max-width: 740px ) {
+    .header{
+        display: none;
+    }
+
+    .header--nav {
+        display: block !important;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .header--nav li {
+        height: 48px;
+        background-color: rgba(244, 246, 247, 0.856);
+        display: block;
+    }
+
+    .header--nav li a {
+        line-height: 48px;
+        margin-left: 20px;
+        color: #f15a24;
+    }
+
+    .header--nav li:first-child i {
+        display: inline-block !important;
+    }
+
+    .header--nav li:first-child{
+        display: flex;
+        justify-content:space-between ;
+    }
+
+    .nav{
+        height: 48px;
+        top: 0;
+    }
+
+    .nav .logo {
+        display: none !important;
+    }
+
+    .containers-two,
+    .containers-one {
+        width: 100%;
+    }
+
+    .header--left {
+        margin: 10px;
+    }
+
+    .header--nav .nav-menu{
+        display: block;
+        padding: 10px 15px;
+        line-height: 29px;
+        color: #f15a24;
+    }
+
+    .slider{
+        width: 100%;
+    }
+
+    .location_time{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tour_items{
+        display: block !important;
+    }
+
+    .col-second{
+        width: 100%;
+    }
+
+    .tour_item{
+        justify-content: space-between;
+    }
+
+    .tour_info{
+        justify-content: space-between;
+    }
+
+    .tour{
+        width: 100%;
+    }
+
+    .featured_list{
+        display: block;
+    }
+
+    .featured_subtitle, .featured_content, .featured_title{
+        text-align: center;
+    }
+
+    .featured_subtitle{
+        font-size: 30px;
+    }
+
+    .featured_content{
+        font-size: 20px;
+    }
+
+    .featured_item{
+        padding: 20px 0;
+    }
+
+    .famous_tour-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-row{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .container-row-item{
+        display: flex;
+        margin: unset;
+    }
+
+    .famous_tour-item img{
+        max-height: 80%;
+    }
+
+    .slick-next ,.slick-prev{
+        display: none !important;
+    }
+
+    .container-row{
+        display: flex;
+    }
+
+    .container-row-item{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+    .famous_tours-list {
+        min-height: auto;
+    }
+
+    .famous_tour-item .desc {
+        width: 100%;
+    }
+
+    .famous_tour-item .desc p {
+        margin-right: 0;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .famous_tour-item img {
+        width: 100%;
+        height: 0%;
+    }
+
+    .famous_tour-item .sub_title {
+        text-transform: none;
+    }
+
+    .sub_img{
+        display: none;
+    }
+
+    .container-hotline{
+        width: 100%;
+    }
+
+    .container-hotline h1{
+        width: 100%;
+        overflow: auto;
+        word-wrap: break-word;
+    }
+}

@@ -1,0 +1,129 @@
+
+@media (min-width: 740px) and (max-width:1024px){
+    .row {
+        width: 100% !important;
+    }
+
+    .header--nav li:first-child {
+        display: none;
+    }
+
+    .header--nav{
+        margin: 0px 10px;
+    }
+
+    .header--contact {
+        padding: 0px 10px;
+    }
+
+    .containers-one,
+    .containers-two {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .header {
+        display: none;
+    }
+
+
+    .header--nav {
+        display: block !important;
+        overflow: hidden;
+    }
+
+    .header--nav li {
+        height: 48px;
+        background-color: #59ca6d;
+        display: block;
+    }
+
+    .header--nav li a {
+        line-height: 48px;
+        margin-left: 20px;
+        color: white;
+    }
+
+    .header--nav li:first-child i {
+        display: inline-block !important;
+    }
+
+    .header--nav li:first-child{
+        display: flex;
+        justify-content:space-between ;
+    }
+
+    .nav .logo {
+        display: none !important;
+    }
+
+    .containers-two,
+    .containers-one {
+        width: 100%;
+    }
+
+    .header--left {
+        margin: 10px;
+    }
+
+    .header--nav .nav-menu{
+        display: block;
+        padding: 10px 15px;
+        line-height: 29px;
+        color: white;
+    }
+
+
+
+    .table-head-list .name {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .table-head-list th{
+        padding-right: 0px;
+    }
+
+    .submit-content {
+        font-size: 11px;
+    }
+
+    .chplay button {
+        margin-top: 5px;
+    }
+
+    .homepage-search-big {
+        display: block !important;
+    }
+
+    .homepage {
+        width: 100%;
+    }
+
+    .homepage-search {
+        display: block;
+    }
+
+    .homepage-search-big .homepage-search-three {
+        background-color: #FFAB60;
+        margin: 0;
+    }
+
+    .homepage-search-three {
+        margin: 0;
+    }
+
+    .homepage-search-six button {
+        padding: 10px 0px;
+        width: 100%;
+        border-top-right-radius: unset;
+        border-bottom-right-radius: unset;
+    }
+
+    .input-two-1 input{
+        width: 100%;
+    }
+
+    
+}
