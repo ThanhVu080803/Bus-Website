@@ -1,5 +1,6 @@
 # Bus booking interface project
-# Team - size : 2
+
+# Team - size : 2 members
 
 This project describes the interface for bus ticket booking.
 
