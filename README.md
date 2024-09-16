@@ -1,5 +1,5 @@
 # Bus booking interface project
-# TEAM -SITE : 2
+# TEAM - SITE : 2
 
 This project describes the interface for bus ticket booking.
 
